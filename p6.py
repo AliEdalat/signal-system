@@ -22,7 +22,7 @@ def x2():
 	n = np.array([n for n in range(0, 25)])
 	n2 = np.array([np2 for np2 in range(0, 15)])
 	n3 = np.array([np1 for np1 in range(0, 39)])
-	x = ((1/2)^(n-2))*u(n-2)
+	x = ((1/2)**(n-2))*u(n-2)
 	h = u(n2+2)
 	y = np.convolve(x,h)
 	plt.stem(n3, y)
