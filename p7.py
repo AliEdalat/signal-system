@@ -8,7 +8,7 @@ def x1():
 	n = np.array([n for n in range(0, 11)])
 	h = (0.9)**n
 	n2 = np.array([n2 for n2 in range(0, 100)])
-	x = np.cos(n2^2)*np.sin(((2*np.pi)/5)*n2)
+	x = np.cos(n2**2)*np.sin(((2*np.pi)/5)*n2)
 	y = np.convolve(x,h)
 	n3 = np.array([n3 for n3 in range(0, 110)])
 	plt.stem(n3, y)
