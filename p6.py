@@ -31,4 +31,4 @@ def x2():
 	plt.ylabel('Y3[n]')
 	plt.show()
 
-x1()
+x2()

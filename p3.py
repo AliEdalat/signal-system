@@ -5,7 +5,7 @@ def u(n):
 	return (n >= 0)
 
 def d(n):
-	return (n==0)
+	return (n==0) * 1
 
 def x1():
 	n = np.array([n for n in range(-5, 10)])
@@ -49,4 +49,4 @@ def x3():
 	plt.ylabel('Y2[n]')
 	plt.show()
 
-x3()
+x1()
